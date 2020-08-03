@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Bảng Thu Chi" android:icon="@drawable/ic_khoanthu" android:id="@+id/bangThuChi"/>
+
+    <item android:title="Bảng Giao Dịch" android:icon="@drawable/ic_khoanchi" android:id="@+id/bangGiaoDich"/>
+
+    <item android:title="Thống Kê" android:icon="@drawable/ic_thongke" android:id="@+id/thongKe"/>
+
+
+    <item android:title="Thông tin cơ bản">
+
+
+    <menu>
+
+    <item android:title="Giới Thiệu" android:icon="@drawable/ic_gioithieu" android:id="@+id/gioiThieu"/>
+
+    <item android:title="Thoát" android:icon="@drawable/ic_thoat" android:id="@+id/thoat"/>
+
+</menu>
+
+</item>
+
+</menu>

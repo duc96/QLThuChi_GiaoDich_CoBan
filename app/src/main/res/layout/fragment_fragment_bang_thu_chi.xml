@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <FrameLayout
+    tools:context=".fragment.FragmentBangThuChi"
+    android:id="@+id/fragmentBangThuChi"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/nen_ngoai"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.tabs.TabLayout
+            app:tabTextColor="@color/black"
+            app:tabSelectedTextColor="@color/colorAccent"
+            android:id="@+id/tabbangThuChi"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_margin="5dp"
+            android:id="@+id/viewpagerBangThuChi"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbtnBangThuChi"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_anchorGravity="bottom|right|end"
+        app:layout_anchor="@id/fragmentBangThuChi"
+        android:src="@drawable/ic_floatbutton"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|right"/>
+
+</FrameLayout>

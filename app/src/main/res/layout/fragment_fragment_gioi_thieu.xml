@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    tools:context=".fragment.FragmentGioiThieu"
+    android:id="@+id/fragmentGioiThieu"
+    android:background="@drawable/nen_ngoai"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="170dp"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="Wellcome to my ASM"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Nguyễn Văn A"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="PS 999999"/>
+
+</LinearLayout>

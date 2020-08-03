@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/technical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        />
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập User Name"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:hint="Nhập Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhớ mật khẩu"
+        android:textColorHint="@color/white"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="LOGIN"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="REGISTER"
+        />
+
+</LinearLayout>

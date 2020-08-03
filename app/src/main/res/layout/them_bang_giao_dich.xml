@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/edtNgayGiaoDich"
+        android:layout_width="0dp"
+        android:layout_height="60sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:hint="ngày giao dịch" />
+
+    <EditText
+        android:id="@+id/edtSoTien"
+        android:layout_width="0dp"
+        android:layout_height="60sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:hint="số tiền" />
+
+    <Spinner
+        android:id="@+id/spnMaKhoan"
+        android:layout_width="0dp"
+        android:layout_height="60sp"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/edtMoTa"
+        android:layout_width="0dp"
+        android:layout_height="60sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:hint="mô tả" />
+
+</LinearLayout>
